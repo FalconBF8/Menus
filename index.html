@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menus</title>
+    <style>
+        button {
+            color: #ffffff;
+            background-color: #454545;
+            font-size: 19px;
+            border: 1px solid #454545;
+            padding: 15px 50px;
+            letter-spacing: 2px;
+            cursor: pointer
+        }
+
+        button:hover {
+            background-color: #9e9e9e;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function MenuW() {
+            window.open("Menu Western Big.pdf");
+        }   
+      
+       function MenuI() {
+            window.open("Pasta Menu.pdf");
+        }   
+       function MenuA() {
+            window.open("Arabic Menu.pdf");
+        }   
+    </script>
+
+    <dir><button type="button" name="myButton" onclick="MenuW()"> WESTERN</button>
+    </dir>
+    <dir><button type="button" name="myButton" onclick="MenuI()">ITALIAN</button>
+    </dir>
+    <dir><button type="button" name="myButton"onclick="MenuA()">ARABIC</button>
+    </dir>
+
+</body>
+
+</html>
